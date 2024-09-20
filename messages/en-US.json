@@ -1,7 +1,15 @@
 {
     "pages":{
         "home":{
-            "available":"Open to Work"
+            "available":"Open to Work",
+            "first":"Building the future.",
+            "secondary":"Through code and creativity.",
+            "description":"I'm Felipe, and since 2021, I have remained committed to continuous learning and improvement. My focus is on delivering high-quality work while constantly evolving in the world of programming.",
+            "resume":{
+                "press":"Press",
+                "to_resume":"to resume"    
+            }
+            
         }
     },
     "config":{

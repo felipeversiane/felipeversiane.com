@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <div className="space-y-32 w-full h-full">
       <Header/>
+      <HeroHome/>
     </div>
   );
 }

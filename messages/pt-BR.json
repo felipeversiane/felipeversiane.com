@@ -1,7 +1,14 @@
 { 
     "pages":{
         "home":{
-            "available":"Disponível"
+            "available":"Disponível",
+            "first":"Construindo o futuro.",
+            "secondary":"Com código e criatividade.",
+            "description":"Sou Felipe e, desde 2021, me mantenho comprometido com o aprendizado e o aprimoramento contínuo. Com foco é entregar um trabalho de alta qualidade enquanto evoluo constantemente no mundo da programação.",
+            "resume":{
+                "press":"Pressione",
+                "to_resume":"para resumir"    
+            }
         }
     },
     "config":{
