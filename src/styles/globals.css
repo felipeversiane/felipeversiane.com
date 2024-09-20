@@ -1,0 +1,74 @@
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+  body {
+    color: hsl(var(--foreground));
+    background: hsl(var(--background));
+  }
+
+  @layer utilities {
+    .text-balance {
+      text-wrap: balance;
+    }
+  }
+
+  @layer base {
+    :root {
+      --background: 0, 0%, 6%; /* background */
+      --foreground: 0 0% 100%; /* foreground */
+
+      --card:0, 0%, 12%; /* card-background */
+      --card-foreground: 0 0% 100%; /* card-foreground */
+
+      --card-primary:0, 0%, 50%;  /* card-primary */
+      --card-secondary:0, 0%, 65%; /* card-secondary */
+      --card-tertiary:0, 0%, 22%; /* card-tertiary*/
+
+      --primary: 0, 0%, 50%; /* primary */
+      --secondary: 0, 0%, 65%; /* secondary */
+
+      --border: 0, 0%, 22%; /* border-primary */
+      --border-secondary:0,0%,12%; /* border-tertiary */
+      --border-tertiary:0, 0%, 6%; /* border-tertiary */
+
+      --radius: 0.5rem;  /* radius */
+
+      --sucess:140, 78%, 45%; /* sucess */
+
+
+      /* UNUSED AT THE MOMENT */
+
+      --popover: 224 71.4% 4.1%;
+      --popover-foreground: 210 20% 98%;
+
+      --muted: 215 27.9% 16.9%;
+      --muted-foreground: 217.9 10.6% 64.9%;
+
+      --accent: 215 27.9% 16.9%;
+      --accent-foreground: 210 20% 98%;
+
+      --destructive: 0 62.8% 30.6%;
+      --destructive-foreground: 210 20% 98%;
+
+      --input: 215 27.9% 16.9%;
+
+      --ring: 216 12.2% 83.9%;
+
+      --chart-1: 220 70% 50%;
+      --chart-2: 160 60% 45%;
+      --chart-3: 30 80% 55%;
+      --chart-4: 280 65% 60%;
+      --chart-5: 340 75% 55%;
+
+    }
+  }
+
+  @layer base {
+    * {
+      @apply border-border;
+    }
+    body {
+      @apply bg-background text-foreground;
+    }
+  }
