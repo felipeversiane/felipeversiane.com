@@ -1,5 +1,20 @@
 { 
-    "example":{
-        "text":"Olá mundo"
+    "pages":{
+        "home":{
+            "available":"Disponível"
+        }
+    },
+    "config":{
+        "personal":{
+            "first_name":"Felipe",
+            "secondary_name":"Versiane",
+            "role":"Desenvolvedor Back-end",
+            "country":"Brasil",
+            "index":"Desenvolvedor Back-end vindo do Brasil 🏖️"
+        },
+        "lang":{
+            "pt-br":"Português",
+            "en-us":"Inglês"
+        }
     }
 }

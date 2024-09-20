@@ -1,6 +1,23 @@
 {
-    "example":{
-        "text":"Hello World"
+    "pages":{
+        "home":{
+            "available":"Open to Work"
+        }
+    },
+    "config":{
+        "personal":{
+            "first_name":"Felipe",
+            "secondary_name":"Versiane",
+            "role":"Back-end Developer",
+            "country":"Brazil",
+            "index":"Back-end Developer from Brazil 🏖️"
+        },
+        "lang":{
+            "pt-br":"Portuguese",
+            "en-us":"English"
+        }
+        
     }
+    
 
 }

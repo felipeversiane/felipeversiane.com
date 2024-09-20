@@ -1,11 +1,13 @@
-import { useTranslations } from "next-intl";
+import Header from "@/components/app/header/navbar";
+import {HeroHome} from "./sections";
 
-export default function HomePage() {
-  const t = useTranslations("example");
+
+
+export default function Home() {
 
   return (
-    <div className="">
-      {t('text')}
+    <div className="space-y-32 w-full h-full">
+      <Header/>
     </div>
   );
 }
