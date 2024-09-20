@@ -6,7 +6,11 @@ import Link from 'next/link';
 import { useEffect } from 'react';
 import { useLocale } from 'next-intl';
 
-export default function ResumeButton() {
+interface ResumeButtonProps {
+  className?: string;
+}
+
+export default function ResumeButton({ className = '' }: ResumeButtonProps) {
   const t = useTranslations('pages.home.resume');
   const locale = useLocale();
 
@@ -31,7 +35,7 @@ export default function ResumeButton() {
     <Link 
       href="#" 
       onClick={downloadResume} 
-      className="ml-[-16px] px-4 group w-fit hover:bg-background-primary transition-colors duration-300 ease-in-out rounded-lg text-sm py-2 text-primary-foreground flex items-center justify-start gap-2"
+      className={`px-4 group w-fit h-fit transition-colors hover:bg-tertiary  duration-300 ease-in-out rounded-lg text-sm py-2 text-primary-foreground flex items-center justify-start gap-2 ${className}`}
     >
       <span>{t("press")}</span>
       <div className="flex items-center justify-center gap-1">

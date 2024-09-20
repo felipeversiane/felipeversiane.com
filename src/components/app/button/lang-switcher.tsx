@@ -48,8 +48,8 @@ export default function LangSwitcher() {
               <Image
                 src="icons/sheet/check-icon.svg"
                 alt="Selected Icon"
-                width={12}
-                height={12}
+                width={8}
+                height={8}
                 className="ml-3"
               />
             )}

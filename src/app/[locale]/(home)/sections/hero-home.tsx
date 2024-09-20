@@ -22,7 +22,7 @@ export default function HeroHome() {
       <p className="font-light text-sm w-3/4 text-secondary">
         {t('description')}
       </p>
-      <ResumeButton/>
+      <ResumeButton />
     </div>
   );
 }
