@@ -45,6 +45,17 @@
                   "url": "https://github.com/felipeversiane/task-api"
                 }
               ]              
+        },
+        "careers":{
+            "title":"💼 Carreira",
+            "description":"Abaixo temos os lugares onde estive, onde trabalhei, tecnologias que utilizei e uma descrição do trabalho que realizei."
+        },
+        "cta":{
+            "title_one":"Possui algum projeto ou ideia que gostaria de discutir?",
+            "title_two":"que gostaria de discutir?",
+            "description":"Por que não me enviar um e-mail ou uma mensagem.",
+            "email":"Mande um email",
+            "message":"Converse comigo"
         }
     },
     "config":{

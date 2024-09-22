@@ -5,7 +5,6 @@ import { locales } from "@/config";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, useMessages } from "next-intl";
 
-
 const inter = Inter({ subsets: ["latin"] });
 
 interface RootLayoutProps {

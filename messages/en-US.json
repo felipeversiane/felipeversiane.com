@@ -47,6 +47,17 @@
                 }
                 
             ]
+        },
+        "careers":{
+            "title":"💼 Career",
+            "description":"Below we have the places I've been, where I've worked, technologies I've used and a description of the work I've done."
+        },
+        "cta":{
+            "title_one":"Have a product or project",
+            "title_two":"you'd like to discuss?",
+            "description":"Why not email me or send me a message.",
+            "email":"Email me",
+            "message":"Message me"
         }
     },
     "config":{

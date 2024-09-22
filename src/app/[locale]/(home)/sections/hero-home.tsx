@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import { ResumeButton } from "@/components/app/button";
 import { useTranslations } from "next-intl";
@@ -7,9 +7,11 @@ export default function HeroHome() {
   const t = useTranslations("pages.home");
 
   return (
-    <div className="flex flex-col items-start justify-start space-y-4 w-full">
+    <section className="flex flex-col items-start justify-start space-y-4 w-full">
       <h3 className="relative flex items-center pl-5 ">
-        <span className="ml-1 font-light text-md text-sucess">{t("available")}</span>
+        <span className="ml-1 font-light text-md text-sucess">
+          {t("available")}
+        </span>
         <span className="absolute left-0 top-3 flex h-3 w-3 -translate-y-1/2 pl-1">
           <span className="absolute inline-flex h-full w-full animate-ping rounded-full pl-1 opacity-75 bg-sucess"></span>
           <span className="relative inline-flex h-3 w-3 rounded-full pl-3 bg-sucess"></span>
@@ -27,6 +29,6 @@ export default function HeroHome() {
         </p>
         <ResumeButton />
       </div>
-    </div>
+    </section>
   );
 }
