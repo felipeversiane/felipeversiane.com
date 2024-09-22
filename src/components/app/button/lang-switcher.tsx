@@ -28,9 +28,10 @@ export default function LangSwitcher() {
           height={19}
         />
       </DropdownMenuTrigger>
-      <DropdownMenuContent>
+      <DropdownMenuContent className="p-1.5">
         {appLocales.map(({ name, src, locale }) => (
           <DropdownMenuItem
+            className="text-md font-light"
             key={name}
             onClick={() => {
               router.push(pathname, { locale });
@@ -48,8 +49,8 @@ export default function LangSwitcher() {
               <Image
                 src="icons/sheet/check-icon.svg"
                 alt="Selected Icon"
-                width={8}
-                height={8}
+                width={13}
+                height={13}
                 className="ml-3"
               />
             )}

@@ -1,6 +1,5 @@
 import Header from "@/components/app/header/navbar";
-import {HeroHome} from "./sections";
-
+import {HeroHome,Projects} from "./sections";
 
 
 export default function Home() {
@@ -9,6 +8,7 @@ export default function Home() {
     <div className="space-y-24 w-full h-full">
       <Header/>
       <HeroHome/>
+      <Projects/>
     </div>
   );
 }

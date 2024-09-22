@@ -19,7 +19,8 @@ const config: Config = {
   				foreground: 'hsl(var(--card-foreground))',
 				primary:'hsl(var(--card-primary))',
 				secondary:'hsl(var(--card-secondary))',
-				tertiary:'hsl(var(--card-tertiary))'
+				tertiary:'hsl(var(--card-tertiary))',
+				hover:'hsl(var(--card-hover))'
   			},
   			popover: {
   				DEFAULT: 'hsl(var(--popover))',

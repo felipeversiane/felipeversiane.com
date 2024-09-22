@@ -1,7 +1,7 @@
 {
     "pages":{
         "home":{
-            "available":"Open to Work",
+            "available":"Available",
             "first":"Building the future.",
             "secondary":"Through code and creativity.",
             "description":"I'm Felipe, and since 2021, I have remained committed to continuous learning and improvement. My focus is on delivering high-quality work while constantly evolving in the world of programming.",
@@ -10,6 +10,43 @@
                 "to_resume":"to resume"    
             }
             
+        },
+        "projects": {
+            "title": "🗒️Selected Projects",
+            "description": "Below are selected projects I've worked on, the technologies I've used, and a brief description of the solutions I've built.",
+            "projects": [
+                {
+                    "name": "Donate Manager",
+                    "tags": ["payment gateway","aws-s3"],
+                    "description": "Donation management system with efí core and aws-s3 to file upload.",
+                    "url": "https://github.com/felipeversiane/donate-api"
+                },
+                {
+                    "name": "Picpay Challange",
+                    "tags": ["challange","deploy","ci/cd"],
+                    "description": "Picpay back-end challange in golang.",
+                    "url": "https://github.com/felipeversiane/picpay-golang"
+                },
+                {
+                    "name": "Django Auth",
+                    "tags": ["aws-ses","authentication"],
+                    "description": "Authentication uses on django with djoser and aws-ses.",
+                    "url": "https://github.com/felipeversiane/fullauth-api-sample"
+                },
+                {
+                    "name": "File Storage",
+                    "tags": ["aws-s3"],
+                    "description": "File storage example with aws-s3 and golang.",
+                    "url": "https://github.com/felipeversiane/s3filestorage"
+                },
+                {
+                    "name": "Task Manager",
+                    "tags": ["cache"],
+                    "description": "Task manager with cache to query optimization.",
+                    "url": "https://github.com/felipeversiane/task-api"
+                }
+                
+            ]
         }
     },
     "config":{

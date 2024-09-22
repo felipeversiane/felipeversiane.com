@@ -9,6 +9,42 @@
                 "press":"Pressione",
                 "to_resume":"para resumir"    
             }
+        },
+        "projects": {
+            "title": "🗒️Projetos Selecionados",
+            "description": " Abaixo estão alguns projetos que trabalhei, as tecnologias que utilizei e uma breve descrição das soluções que construí.",
+            "projects":[
+                {
+                  "name": "Gerenciador de Doações",
+                  "tags": ["gateway de pagamento", "aws-s3"],
+                  "description": "Sistema de gestão de doações com efí e aws-s3 para upload de arquivos.",
+                  "url": "https://github.com/felipeversiane/donate-api"
+                },
+                {
+                  "name": "Desafio Picpay",
+                  "tags": ["desafio", "deploy", "ci/cd"],
+                  "description": "Desafio de back-end da picpay em golang.",
+                  "url": "https://github.com/felipeversiane/picpay-golang"
+                },
+                {
+                  "name": "Autenticação Django",
+                  "tags": ["aws-ses", "autenticação"],
+                  "description": "Autenticação no django utilizando djoser e aws-ses.",
+                  "url": "https://github.com/felipeversiane/fullauth-api-sample"
+                },
+                {
+                  "name": "Armazenamento de Arquivos",
+                  "tags": ["aws-s3"],
+                  "description": "Exemplo de armazenamento de arquivos com aws-s3 e golang.",
+                  "url": "https://github.com/felipeversiane/s3filestorage"
+                },
+                {
+                  "name": "Gerenciador de Tarefas",
+                  "tags": ["cache"],
+                  "description": "Gerenciador de tarefas com cache para otimização de consultas.",
+                  "url": "https://github.com/felipeversiane/task-api"
+                }
+              ]              
         }
     },
     "config":{

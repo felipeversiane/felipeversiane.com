@@ -18,7 +18,8 @@
       --background: 0, 0%, 6%; /* background */
       --foreground: 0 0% 100%; /* foreground */
 
-      --card:0, 0%, 12%; /* card-background */
+      --card:0, 0%, 8%; /* card-background */
+      --card-hover:0, 0%, 12%; /* card-hover */
       --card-foreground: 0 0% 100%; /* card-foreground */
 
       --card-primary:0, 0%, 50%;  /* card-primary */
@@ -72,4 +73,22 @@
     body {
       @apply bg-background text-foreground;
     }
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  } 
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: hsl(var(--border));
+    transition: color 3ms ease-in-out;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color:hsl(var(--background)) ;
+  }
+  
+  
+  html {
+    scroll-behavior: smooth;
   }

@@ -35,11 +35,11 @@ export default function ResumeButton({ className = '' }: ResumeButtonProps) {
     <Link 
       href="#" 
       onClick={downloadResume} 
-      className={`px-4 group w-fit h-fit transition-colors hover:bg-tertiary  duration-300 ease-in-out rounded-lg text-sm py-2 text-primary-foreground flex items-center justify-start gap-2 ${className}`}
+      className={`py-2 px-4 group w-fit h-fit transition-colors hover:bg-tertiary duration-300 ease-in-out rounded-lg text-sm text-primary-foreground flex items-center justify-start gap-2 ${className}`}
     >
       <span>{t("press")}</span>
       <div className="flex items-center justify-center gap-1">
-        <span className="px-1 py-0.5 rounded-sm transition-colors duration-300 ease-in-out group-hover:text-background group-hover:bg-foreground bg-border flex items-center justify-center">
+        <span className="px-1 text-md py-0.5 rounded-sm transition-colors duration-300 ease-in-out group-hover:text-background group-hover:bg-foreground bg-border flex items-center justify-center">
           CTRL
         </span>
         <span className="px-1 py-0.5 rounded-sm transition-colors duration-300 ease-in-out group-hover:text-black group-hover:bg-white bg-border flex items-center justify-center">
