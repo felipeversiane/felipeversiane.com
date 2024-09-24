@@ -18,7 +18,7 @@
       --background: 0, 0%, 6%; /* background */
       --foreground: 0 0% 100%; /* foreground */
 
-      --card:0, 0%, 7%; /* card-background */
+      --card:0, 0%, 8%; /* card-background */
       --card-hover:0, 0%, 12%; /* card-hover */
       --card-foreground: 0 0% 100%; /* card-foreground */
 
@@ -29,6 +29,7 @@
       --primary: 0, 0%, 50%; /* primary */
       --secondary: 0, 0%, 65%; /* secondary */
       --tertiary: 0, 0%, 12%; /* tertiary */
+      --quartiary:0,0%,80%; /* quartiary*/
 
       --border: 0, 0%, 22%; /* border-primary */
       --border-secondary:0,0%,12%; /* border-tertiary */

@@ -37,6 +37,9 @@ const config: Config = {
   			tertiary: {
   				DEFAULT: 'hsl(var(--tertiary))'
   			},
+			quartiary: {
+				DEFAULT: 'hsl(var(--quartiary))'
+			},
   			muted: {
   				DEFAULT: 'hsl(var(--muted))',
   				foreground: 'hsl(var(--muted-foreground))'

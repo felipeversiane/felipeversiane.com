@@ -10,8 +10,8 @@ export default function Projects() {
 
   return (
     <section className="flex flex-col items-start justify-start space-y-8 w-full">
-      <div className="space-y-2">
-        <h2 className="text-2xl font-medium -mx-1.5">{t("title")}</h2>
+      <div className="space-y-1">
+        <h2 className="text-3xl font-medium leading-[1.2] bg-gradient-to-b from-quartiary to-foreground bg-clip-text text-transparent">{t("title")}</h2>
         <p className="text-secondary text-md font-regular">
           {t("description")}
         </p>

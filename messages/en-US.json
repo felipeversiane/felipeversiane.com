@@ -12,7 +12,7 @@
             
         },
         "projects": {
-            "title": "🗒️Selected Projects",
+            "title": "Selected Projects",
             "description": "Below are selected projects I've worked on, the technologies I've used, and a brief description of the solutions I've built.",
             "projects": [
                 {
@@ -49,7 +49,7 @@
             ]
         },
         "careers":{
-            "title":"💼 Career",
+            "title":"Career",
             "description":"Below we have the places I've been, where I've worked, technologies I've used and a description of the work I've done.",
             "jobs":[
                 {
@@ -75,13 +75,99 @@
             ]
              
         },
+        "tools":{
+            "title": "Tools and Uses",
+            "description": "Here are the technologies and tools I've mastered, along with how I've applied them in my work.",
+           "tools": [
+                {
+                    "name": "Postgres",
+                    "type": "Database",
+                    "icon": "icons/tools/postgres-icon.svg"
+                },
+                {
+                    "name": "Typescript",
+                    "type": "Front-end",
+                    "icon": "icons/tools/typescript-icon.svg"
+                },
+                {
+                    "name": "Pandas",
+                    "type": "Data",
+                    "icon": "icons/tools/pandas-icon.svg"
+                },
+                {
+                    "name": "Golang",
+                    "type": "Back-end",
+                    "icon": "icons/tools/golang-icon.svg"
+                },
+                {
+                    "name": "Numpy",
+                    "type": "Data",
+                    "icon": "icons/tools/numpy-icon.svg"
+                },
+                {
+                    "name": "AWS",
+                    "type": "Cloud",
+                    "icon": "icons/tools/aws-icon.svg"
+                },
+                {
+                    "name": "Django",
+                    "type": "Back-end",
+                    "icon": "icons/tools/django-icon.svg"
+                },
+                {
+                    "name": "Tailwind",
+                    "type": "Front-end",
+                    "icon": "icons/tools/tailwindcss-icon.svg"
+                },
+                {
+                    "name": "Docker",
+                    "type": "Infra",
+                    "icon": "icons/tools/docker-icon.svg"
+                },
+                {
+                    "name": "NGINX",
+                    "type": "Infra",
+                    "icon": "icons/tools/nginx-icon.svg"
+                },
+                {
+                    "name": "MongoDB",
+                    "type": "Database",
+                    "icon": "icons/tools/mongo-icon.svg"
+                },
+                {
+                    "name": "Next.js",
+                    "type": "Front-end",
+                    "icon": "icons/tools/nextjs-icon.svg"
+                },
+                {
+                    "name": "Prometheus",
+                    "type": "Monitoring",
+                    "icon": "icons/tools/prometheus-icon.svg"
+                  },
+                  {
+                    "name": "Grafana",
+                    "type": "Monitoring",
+                    "icon": "icons/tools/grafana-icon.svg"
+                  },
+                  {
+                    "name": "Python",
+                    "type": "Back-end",
+                    "icon": "icons/tools/python-icon.svg"
+                  },
+                  {
+                    "name": "Redis",
+                    "type": "Database",
+                    "icon": "icons/tools/redis-icon.svg"
+                  }
+        ]
+        },
         "questions": {
-            "title": "💭Frequently asked questions",
+            "title": "Frequently asked questions",
             "description": "Questions that I get often, answered for you.",
             "questions": [
                 {
                     "name": "What services do you provide?",
-                    "response": "Primarily, I offer Back-end Development, API design, database management, cloud infrastructure setup, DevOps automation, and system optimization."
+                    "response": "Primarily, I offer back-end development, API design, database management, cloud infrastructure setup, system optimization, and I also craft websites and fullstack applications."
                 },
                 {
                     "name": "How many years of experience do you have?",
