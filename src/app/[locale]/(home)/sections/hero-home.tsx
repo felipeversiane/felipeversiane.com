@@ -18,10 +18,10 @@ export default function HeroHome() {
         </span>
       </h3>
       <h1 className="w-full flex flex-col items-start justify-start text-[40px] font-semibold leading-none">
-        <p>{t("first")}</p>
-        <p className="bg-gradient-to-r from-secondary to-border-secondary bg-clip-text text-transparent leading-[1.2]">
-          {t("secondary")}
+        <p className="leading-[1.2] bg-gradient-to-b from-primary to-foreground bg-clip-text text-transparent ">
+          {t("first")}
         </p>
+        <p className="">{t("secondary")}</p>
       </h1>
       <div className="space-y-6">
         <p className="font-regular text-md w-5/6 text-secondary">

@@ -50,7 +50,52 @@
         },
         "careers":{
             "title":"💼 Career",
-            "description":"Below we have the places I've been, where I've worked, technologies I've used and a description of the work I've done."
+            "description":"Below we have the places I've been, where I've worked, technologies I've used and a description of the work I've done.",
+            "jobs":[
+                {
+                    "title":"Developer Intern",
+                    "enterprise":"Code Tower",
+                    "enterprise_url":"https://codetower.com.br",
+                    "location":"Anápolis, Brazil",
+                    "begin":"Jan 2024",
+                    "end":"Present",
+                    "now":true
+                },
+                {
+                    "title":"PIBIT Scholarship Holder",
+                    "enterprise":"IFG",
+                    "enterprise_url":"https://ifgtrabalho.ifg.edu.br",
+                    "location":"Anápolis, Brazil",
+                    "begin":"Nov 2023",
+                    "end":"Set 2024",
+                    "now":false
+                }
+                
+                
+            ]
+             
+        },
+        "questions": {
+            "title": "💭Frequently asked questions",
+            "description": "Questions that I get often, answered for you.",
+            "questions": [
+                {
+                    "name": "What services do you provide?",
+                    "response": "Primarily, I offer Back-end Development, API design, database management, cloud infrastructure setup, DevOps automation, and system optimization."
+                },
+                {
+                    "name": "How many years of experience do you have?",
+                    "response": "I started in 2021 with programming, in 2022 I entered college and in 2023 I got my first experience as a developer."
+                },
+                {
+                    "name": "Is on-location work possible?",
+                    "response": "I mainly work from Brazil. However I can't commit to working at one specific location regularly. I work remotely because it saves time on commuting and allows me to focus more on projects."
+                },
+                {
+                    "name": "What are your rates?",
+                    "response": "The price varies depending on the project. I offer fixed prices and hourly rates, always discussing the details with you in advance. As an approximate figure, our hourly rate is typically around $5 per hour, excluding VAT."
+                }
+            ]
         },
         "cta":{
             "title_one":"Have a product or project",

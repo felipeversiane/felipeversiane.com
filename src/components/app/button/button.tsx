@@ -7,7 +7,7 @@ interface ButtonProps {
 }
 
 const Button: React.FC<ButtonProps> = ({ message, variant = "normal", onClick }) => {
-  const baseClasses = "flex shadow-sm items-center justify-center text-md py-2 px-3 rounded-lg font-regular transition-all duration-300 ease-in-out";
+  const baseClasses = "flex shadow-sm items-center justify-center text-md py-1.5 px-2.5 rounded-lg font-regular transition-all duration-300 ease-in-out";
   const normalClasses = `hover:bg-border bg-border-secondary text-foreground ${baseClasses}`;
   const borderedClasses = `border-[2px] hover:bg-border-secondary  border-border-secondary bg-transparent text-white ${baseClasses}`;
 

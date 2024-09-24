@@ -1,7 +1,6 @@
 import Header from "@/components/app/header/navbar";
-import {HeroHome,Projects} from "./sections";
+import {HeroHome,Projects,Careers,Questions} from "./sections";
 import { Footer } from "@/components/app/footer";
-import Careers from "./sections/careers";
 import { MainCTA } from "@/components/app/cta";
 
 
@@ -12,7 +11,8 @@ export default function Home() {
       <Header/>
       <HeroHome/>
       <Projects/>
-      {/* <Careers/> */}
+      <Careers/>
+      <Questions/>
       <MainCTA/>
       <Footer/>
     </main>

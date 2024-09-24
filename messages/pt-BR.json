@@ -48,10 +48,53 @@
         },
         "careers":{
             "title":"💼 Carreira",
-            "description":"Abaixo temos os lugares onde estive, onde trabalhei, tecnologias que utilizei e uma descrição do trabalho que realizei."
+            "description":"Abaixo temos os lugares onde estive, onde trabalhei, tecnologias que utilizei e uma descrição do trabalho que realizei.",
+            "jobs": [
+            {
+                "title": "Estagiário de Desenvolvimento",
+                "enterprise": "Code Tower",
+                "enterprise_url": "https://codetower.com.br",
+                "location": "Anápolis, Brasil",
+                "begin": "Jan 2024",
+                "end": "Presente",
+                "now":true
+            },
+            {
+                "title": "Bolsista PIBIT",
+                "enterprise": "IFG",
+                "enterprise_url": "https://ifgtrabalho.ifg.edu.br",
+                "location": "Anápolis, Brasil",
+                "begin": "Nov 2023",
+                "end": "Set 2024",
+                "now":false
+            }
+        ]
+            
+        },
+        "questions": {
+            "title": "💭Perguntas frequentes",
+            "description": "Perguntas que recebo com frequência, respondidas para você.",
+            "questions": [
+                    {
+                        "name": "Quais serviços você oferece?",
+                        "response": "Principalmente, ofereço Desenvolvimento Back-end, design de APIs, gerenciamento de banco de dados, configuração de infraestrutura em nuvem, automação DevOps e otimização de sistemas."
+                    },
+                    {
+                        "name": "Quantos anos de experiência você tem?",
+                        "response": "Comecei em 2021 com programação, em 2022 entrei na faculdade e em 2023 tive minha primeira experiência como desenvolvedor."
+                    },
+                    {
+                        "name": "É possível trabalho presencial?",
+                        "response": "Trabalho principalmente do Brasil. No entanto, não consigo me comprometer a trabalhar em um local específico regularmente. Trabalho remotamente porque economiza tempo de deslocamento e me permite focar mais nos projetos."
+                    },
+                    {
+                        "name": "Quais são suas taxas?",
+                        "response": "O preço varia dependendo do projeto. Ofereço preços fixos e taxas horárias, sempre discutindo os detalhes com você antecipadamente. Como valor aproximado, minha taxa horária costuma ser em torno de $5 por hora, excluindo impostos."
+                    }
+            ]
         },
         "cta":{
-            "title_one":"Possui algum projeto ou ideia que gostaria de discutir?",
+            "title_one":"Possui algum projeto ou ideia",
             "title_two":"que gostaria de discutir?",
             "description":"Por que não me enviar um e-mail ou uma mensagem.",
             "email":"Mande um email",

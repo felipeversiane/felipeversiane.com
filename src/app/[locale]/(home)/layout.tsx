@@ -23,9 +23,9 @@ export default function RootLayout({
   return (
     <html lang={locale} suppressHydrationWarning>
       <body
-        className={`antialised ${inter.className} mx-[250px] my-[60px] flex items-center justify-start`}
+        className={`antialised ${inter.className} mx-[15rem] my-[3.5em] flex items-center justify-start`}
       >
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider messages  ={messages}>
           {children}
         </NextIntlClientProvider>
       </body>

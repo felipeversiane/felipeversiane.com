@@ -15,7 +15,7 @@ export default function ProjectCard({
   return (
     <div
       onClick={handleCardClick}
-      className="relative -mx-[calc(18px)]  cursor-pointer border-border-secondary group bg-background hover:bg-card-hover p-4 flex items-center justify-between rounded-lg transition-all duration-300 ease-in-out"
+      className="relative -mx-[calc(18px)] cursor-pointer group bg-background hover:bg-border-secondary p-4 flex items-center justify-between rounded-lg transition-all duration-300 ease-in-out"
     >
       <div className="flex flex-col items-start justify-start space-y-1">
         <div className="flex items-start justify-start">

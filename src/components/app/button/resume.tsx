@@ -39,7 +39,7 @@ export default function ResumeButton({ className = '' }: ResumeButtonProps) {
     >
       <span>{t("press")}</span>
       <div className="flex items-center justify-center gap-1">
-        <span className="px-1 text-md py-0.5 rounded-sm transition-colors duration-300 ease-in-out group-hover:text-background group-hover:bg-foreground bg-border flex items-center justify-center">
+        <span className="px-1 py-0.5 rounded-sm transition-colors duration-300 ease-in-out group-hover:text-background group-hover:bg-foreground bg-border flex items-center justify-center">
           CTRL
         </span>
         <span className="px-1 py-0.5 rounded-sm transition-colors duration-300 ease-in-out group-hover:text-black group-hover:bg-white bg-border flex items-center justify-center">
