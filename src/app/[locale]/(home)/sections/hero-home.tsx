@@ -8,6 +8,7 @@ export default function HeroHome() {
 
   return (
     <section className="flex flex-col items-start justify-start space-y-4 w-full">
+      <div>
       <h3 className="relative flex items-center pl-5 ">
         <span className="ml-1 font-light text-md text-sucess">
           {t("available")}
@@ -17,6 +18,7 @@ export default function HeroHome() {
           <span className="relative inline-flex h-3 w-3 rounded-full pl-3 bg-sucess"></span>
         </span>
       </h3>
+      </div>
       <h1 className="w-full flex flex-col items-start justify-start text-[40px] font-semibold leading-none">
         <p>{t("first")}</p>
         <p className="bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent leading-[1.2]">

@@ -11,9 +11,13 @@ const config: Config = {
   theme: {
   	extend: {
   		colors: {
-  			sucess: 'hsl(var(--sucess))',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
+			sucess: {
+				DEFAULT: 'hsl(var(--sucess))',
+				secondary: 'hsl(var(--sucess-secondary))',
+				border:'hsl(var(--sucess-border))'
+			} ,
   			card: {
   				DEFAULT: 'hsl(var(--card))',
   				foreground: 'hsl(var(--card-foreground))',

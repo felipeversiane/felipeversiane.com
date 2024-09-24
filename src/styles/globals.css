@@ -15,29 +15,31 @@
 
   @layer base {
     :root {
-      --background: 0, 0%, 6%; /* background */
+      --background: 0 0% 6%; /* background */
       --foreground: 0 0% 100%; /* foreground */
-
-      --card:0, 0%, 8%; /* card-background */
-      --card-hover:0, 0%, 12%; /* card-hover */
+  
+      --card: 0 0% 8%; /* card-background */
+      --card-hover: 0 0% 12%; /* card-hover */
       --card-foreground: 0 0% 100%; /* card-foreground */
-
-      --card-primary:0, 0%, 50%;  /* card-primary */
-      --card-secondary:0, 0%, 65%; /* card-secondary */
-      --card-tertiary:0, 0%, 22%; /* card-tertiary*/
-
-      --primary: 0, 0%, 50%; /* primary */
-      --secondary: 0, 0%, 65%; /* secondary */
-      --tertiary: 0, 0%, 12%; /* tertiary */
-      --quartiary:0,0%,80%; /* quartiary*/
-
-      --border: 0, 0%, 22%; /* border-primary */
-      --border-secondary:0,0%,12%; /* border-tertiary */
-      --border-tertiary:0, 0%, 6%; /* border-tertiary */
-
-      --radius: 0.5rem;  /* radius */
-
-      --sucess:140, 78%, 45%; /* sucess */
+  
+      --card-primary: 0 0% 50%;  /* card-primary */
+      --card-secondary: 0 0% 65%; /* card-secondary */
+      --card-tertiary: 0 0% 22%; /* card-tertiary*/
+  
+      --primary: 0 0% 50%; /* primary */
+      --secondary: 0 0% 65%; /* secondary */
+      --tertiary: 0 0% 12%; /* tertiary */
+      --quartiary: 0 0% 80%; /* quartiary */
+  
+      --border: 0 0% 22%; /* border-primary */
+      --border-secondary: 0 0% 12%; /* border-secondary */
+      --border-tertiary: 0 0% 6%; /* border-tertiary */
+  
+      --radius: 0.5rem; /* radius */
+  
+      --sucess: 140 78% 45%; /* sucess */
+      --sucess-secondary: 140 46% 65%; /* sucess-secondary */
+      --sucess-border:140 27% 45%; /* sucess-border */
 
 
       /* UNUSED AT THE MOMENT */

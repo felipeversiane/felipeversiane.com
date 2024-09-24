@@ -15,7 +15,7 @@ export default function Header() {
           <AvatarFallback>FV</AvatarFallback>
         </Avatar>
         <div className="flex flex-col items-start justify-start">
-          <p className="gap-1.5 relative top-1 flex font-medium text-md">
+          <p className="gap-1.5 relative top-1 flex font-medium text-[17.5px]">
             <span>{t("first_name")}</span>
             <span>{t("secondary_name")}</span>
           </p>
