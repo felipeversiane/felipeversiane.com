@@ -9,7 +9,7 @@ export default function Header() {
   const  locale  = useLocale(); 
 
   return (
-    <div className="flex flex-col sm:flex-row items-center justify-between w-full p-4">
+    <div className="flex flex-col sm:flex-row items-center justify-between w-full">
       <Link href={`/${locale}`} className="flex gap-2.5 items-center justify-start">
         <Avatar className="shadow-lg">
           <AvatarImage src="/images/perfil.svg" width={60} height={60} />
