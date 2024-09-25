@@ -5,6 +5,7 @@ import { locales } from "@/config";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, useMessages } from "next-intl";
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,6 +30,7 @@ export default function RootLayout({
         <NextIntlClientProvider messages  ={messages}>
           {children}
           <SpeedInsights/>
+          <Analytics/>
         </NextIntlClientProvider>
       </body>
     </html>
