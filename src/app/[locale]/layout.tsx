@@ -23,8 +23,8 @@ export default function RootLayout({
   return (
     <html lang={locale} suppressHydrationWarning>
       <body
-        className={`antialised ${inter.className} mx-[15rem] my-[3.5em] flex items-center justify-start`}
-      >
+        className={`antialiased ${inter.className} mx-4 my-4 flex items-center justify-start sm:mx-8 md:mx-[5rem] lg:mx-[15rem] xl:mx-[25rem] sm:my-[2em] md:my-[3em] lg:my-[4em]`}
+        >
         <NextIntlClientProvider messages  ={messages}>
           {children}
         </NextIntlClientProvider>
