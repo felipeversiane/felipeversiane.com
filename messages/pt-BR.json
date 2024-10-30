@@ -43,6 +43,12 @@
                   "tags": ["cache"],
                   "description": "Gerenciador de tarefas com cache para otimização de consultas.",
                   "url": "https://github.com/felipeversiane/task-api"
+                },
+                {
+                    "name": "Go Otel",
+                    "tags": ["observabilidade"],
+                    "description": "Observabilidade em golang.",
+                    "url": "https://github.com/felipeversiane/go-otel"
                 }
               ]              
         },

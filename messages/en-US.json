@@ -44,6 +44,12 @@
                     "tags": ["cache"],
                     "description": "Task manager with cache to query optimization.",
                     "url": "https://github.com/felipeversiane/task-api"
+                },
+                {
+                    "name": "Go Otel",
+                    "tags": ["observability"],
+                    "description": "Observability in golang.",
+                    "url": "https://github.com/felipeversiane/go-otel"
                 }
                 
             ]
